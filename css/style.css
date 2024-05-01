@@ -3,3 +3,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#page {
+  max-width: 1440px;
+  overflow-x: hidden;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Starts Here: */
+
+#header_content {
+  height: 800px;
+  padding-top: 34px;
+  background: url(../photos/photo-1569201529241-f96205e2f2c6.svg);
+}
+
+#text_content {
+  max-width: 1352px;
+  margin: 0 auto 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#heading {
+  max-width: 750px;
+  height: 273px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text_content ul {
+  width: 467px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Styling */
+
+#text_content ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#text_content ul li button {
+  width: 140px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: -0.11px;
+}
+
+#heading h1 {
+  font-size: 56px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 8.75px;
+}
