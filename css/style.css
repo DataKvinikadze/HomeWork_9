@@ -294,3 +294,57 @@ section {
   font-style: 14px;
   color: #a7aaad;
 }
+
+/* FOOTER starts here: */
+
+/* Section 1: */
+
+#section_1 .content {
+  width: 1440px;
+  margin-top: 160px;
+  display: flex;
+}
+
+/* Section 2: */
+
+footer #section_2 {
+  background-color: #90d4c6;
+  padding: 72px 0px;
+}
+
+footer #section_2 .content {
+  margin: 0 auto;
+  width: 297px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #section_2 .content .links {
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #section_2 .content .links .images {
+  width: 164px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #section_2 .content .links ul {
+  width: 297px;
+  justify-content: space-between;
+}
+
+/* section 2 styles */
+footer #section_2 .content .links ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #458d7e;
+  letter-spacing: -0.13px;
+}
