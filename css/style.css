@@ -99,4 +99,40 @@ section {
   letter-spacing: 8.75px;
   font-family: "Fraunces", serif;
 }
+
+/* Main Section */
+
+/* GRID */
+.grid_container {
+  display: grid;
+  grid-template-rows: 600px 600px 600px;
+}
+
+.grid_container .item_1 {
+  margin-left: 165px;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid_container .item_2 {
+  grid-row: 2;
+  margin-right: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.grid_container .item_3 {
+  grid-row: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_3 .left_side {
+  background: url(../photos/bck1.svg);
+  max-width: 750px;
+}
+
+.item_3 .right_side {
+  background: url(../photos/bck2.svg);
+  max-width: 750px;
 }
