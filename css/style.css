@@ -71,6 +71,37 @@ section {
   align-items: center;
 }
 
+/* POP UP  */
+
+#header_content .pop_up {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 329px;
+  height: 305px;
+  background-color: #fff;
+  padding: 39px 95px;
+}
+
+#header_content .pop_up li button {
+  width: 140px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: -0.11px;
+  font-family: "Fraunces", serif;
+  background-color: #fbd600;
+  color: #24303e;
+}
+/* POP UP style: */
+#header_content .pop_up li a {
+  color: #808397;
+  font-size: 20px;
+  letter-spacing: -0.14px;
+}
+
 /* Header Styling */
 
 #header_content #text ul li a {
