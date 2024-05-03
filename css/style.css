@@ -348,3 +348,207 @@ footer #section_2 .content .links ul li a {
   color: #458d7e;
   letter-spacing: -0.13px;
 }
+
+footer #section_2 .content .links a:active {
+  background-color: #fff;
+}
+
+/* hiddens */
+
+.hidden {
+  display: none;
+  width: 24px;
+  height: 18px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.line {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+}
+
+@media screen and (max-width: 375px) {
+  /* header_content */
+
+  #header_content {
+    background: url(../photos/Media.png);
+    height: 538px;
+    padding-top: 32px;
+  }
+  #header_content #text {
+    max-width: 327px;
+    height: 24px;
+  }
+
+  #header_content #text .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #header_content #text nav {
+    display: none;
+  }
+
+  #header_content #heading {
+    max-width: 327px;
+    height: 257px;
+  }
+
+  /* styling header */
+
+  #header_content #heading h1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 6.25px;
+  }
+
+  /* Main Content starts here */
+
+  /* section 1: */
+  /* GRID */
+
+  main #Section_1 .grid_container {
+    grid-template-columns: 375px;
+    grid-template-rows: 685px 64px 685px 64px 1200px;
+  }
+
+  main #Section_1 .grid_container .item_1 {
+    grid-row: 1;
+    max-width: 375px;
+    height: 685px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main #Section_1 .grid_container .item_2 {
+    grid-row: 3;
+    max-width: 375px;
+    height: 685px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main #Section_1 .grid_container .item_3 {
+    grid-row: 5;
+    max-width: 375px;
+    height: 1200px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  main #Section_1 .grid_container .item_3 .left_side {
+    background: url(../photos/bck1.svg);
+  }
+  main #Section_1 .grid_container .item_3 .right_side {
+    background: url(../photos/bck2.svg);
+  }
+
+  main #Section_1 .grid_container .c_style .text {
+    max-width: 327px;
+    height: 309px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* styling */
+
+  main #Section_1 .grid_container .c_style .text h1 {
+    font-size: 32px;
+    letter-spacing: -0.23px;
+  }
+
+  main #Section_1 .grid_container .c_style .text p {
+    font-size: 18px;
+    letter-spacing: 0.13px;
+  }
+
+  main #Section_1 .grid_container .c_style img {
+    height: 312px;
+    width: 375px;
+  }
+
+  main #Section_1 .grid_container .item_3 .div .text {
+    max-width: 327px;
+  }
+
+  /* Changing places */
+
+  main #Section_1 .grid_container .item_1 img {
+    order: 1;
+  }
+
+  main #Section_1 .grid_container .item_1 .text {
+    order: 2;
+  }
+
+  /* Section 2 Starts here: */
+
+  /* GRID */
+
+  main #section_2 .grid {
+    margin: 64px;
+    grid-template-columns: 327px;
+    grid-template-rows: 20px 64px 288px 64px 288px 64px 288px;
+  }
+
+  main #section_2 .grid h1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  main #section_2 .grid .item_1 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  main #section_2 .grid .item_2 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  main #section_2 .grid .item_3 {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  main #section_2 .grid .div {
+    max-width: 327px;
+    height: 288px;
+  }
+
+  main #section_2 .grid .div .text {
+    height: 184px;
+  }
+
+  /* styling */
+
+  main #section_2 .grid h1 {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+
+  /* FOOTER starts here */
+  /* Section 1: */
+  /* GRID */
+  footer #section_1 .content {
+    margin-top: 86px;
+    display: grid;
+    grid-template-columns: 188px 188px;
+    grid-template-rows: 188px 188px;
+  }
+
+  footer #section_1 .content img {
+    width: 188px;
+    height: 188px;
+    object-fit: cover;
+  }
+}
