@@ -82,6 +82,7 @@ section {
   height: 305px;
   background-color: #fff;
   padding: 39px 95px;
+  margin: 0 auto;
 }
 
 #header_content .pop_up li button {
@@ -390,9 +391,6 @@ footer #section_2 .content .links a:active {
   display: none;
   width: 24px;
   height: 18px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 .line {
